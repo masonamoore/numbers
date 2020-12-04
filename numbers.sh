@@ -2,7 +2,7 @@
 #! numbers.sh
 #Mason Moore
 echo "Please enter a positive integer:"
-read X
+read -r X
 N=1
 while [ $N -le $X ]
 do
